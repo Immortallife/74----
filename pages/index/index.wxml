@@ -4,23 +4,23 @@
 <!-- js中写业务逻辑 -->
 <swiper indicator-dots indicator-color="rgba(255,255,255,.6)" indicator-active-color="#fff" autoplay circular interval="3000">
 <swiper-item  >
-<image   src="https://github.com/Immortallife/74-/blob/master/uploads/slide_1.jpg?raw=true">
+<image   src="https://immortallife.github.io/74-/uploads/slide_1.jpg">
 </image>
 </swiper-item>
 <swiper-item>
-<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_2.jpg?raw=true">
+<image src="https://immortallife.github.io/74-/uploads/slide_2.jpg">
 </image>
 </swiper-item>
 <swiper-item>
-<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_3.jpg?raw=true">
+<image src="https://immortallife.github.io/74-/uploads/slide_3.jpg">
 </image>
 </swiper-item>
 <swiper-item>
-<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_4.jpg?raw=true">
+<image src="https://immortallife.github.io/74-/uploads/slide_4.jpg">
 </image>
 </swiper-item>
 <swiper-item>
-<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_5.jpg?raw=true">
+<image src="https://immortallife.github.io/74-/uploads/slide_5.jpg">
 </image>
 </swiper-item>
 
@@ -64,7 +64,7 @@
     </view>
     <!-- 其它 -->
     <view class="extra">
-      <text class="icon-quill">200人已报名</text>
+      <text class="icon-clubs">200人已报名</text>
       <text>本周六开始</text>
     </view>
     <!-- 状态 -->
@@ -83,7 +83,7 @@
     </view>
     <!-- 其它 -->
     <view class="extra">
-      <text>200人已报名</text>
+      <text class="icon-edit">200人已报名</text>
       <text>本周六开始</text>
     </view>
     <!-- 状态 -->
@@ -109,6 +109,7 @@
     <view class="status">免费</view>
   </view>
 </view>
- 
+ <view class="box">
+ </view>
         
 

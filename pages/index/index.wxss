@@ -75,3 +75,9 @@ color: #3C3C3C;
   font-size: 30rpx;
   color: #FE6249;
 }
+.box{
+  width:300rpx;
+  height:300rpx;
+  border: 1rpx solid red;
+  background-image: url('https://immortallife.github.io/74-/images/icon.png')
+}
