@@ -1,0 +1,77 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+swiper image{
+  width:750rpx;
+  height:320rpx;
+}
+.title{
+  font-size: 28rpx;
+  color: #3C3C3C;
+  font-weight: 700;
+  line-height: 1;
+  padding: 20rpx 0 ;
+  
+}
+
+.title text{
+  font-size: 22rpx;
+  color: #B4B4B4;
+}
+
+.items .status{
+  position: absolute;
+ top: 2rpx;
+  right: 3rpx;
+  font-size: 30rpx;
+color: #FE6249;
+}
+.items .info {
+  height: 180rpx;
+  padding: 16rpx 130rpx 20rpx 30rpx;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.items image{
+  width:750rpx;
+  height:320rpx;
+}
+.items name{
+  font-size: 30rpx;
+color: #3C3C3C;
+}
+.items .extra{
+  font-size: 22rpx;
+  color: #B4B4B4;
+  position: absolute;
+  bottom: 20rpx;
+}
+.items .extra text{
+  margin-right: 60rpx;
+}
+.items .status {
+  position: absolute;
+  right: 30rpx;
+  top: 16rpx;
+  font-size: 30rpx;
+  color: #FE6249;
+}

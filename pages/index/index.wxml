@@ -1,0 +1,114 @@
+<!-- 编写思路和网页一样 -->
+<!-- html中写结构 -->
+<!-- wxss中写样式 -->
+<!-- js中写业务逻辑 -->
+<swiper indicator-dots indicator-color="rgba(255,255,255,.6)" indicator-active-color="#fff" autoplay circular interval="3000">
+<swiper-item  >
+<image   src="https://github.com/Immortallife/74-/blob/master/uploads/slide_1.jpg?raw=true">
+</image>
+</swiper-item>
+<swiper-item>
+<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_2.jpg?raw=true">
+</image>
+</swiper-item>
+<swiper-item>
+<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_3.jpg?raw=true">
+</image>
+</swiper-item>
+<swiper-item>
+<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_4.jpg?raw=true">
+</image>
+</swiper-item>
+<swiper-item>
+<image src="https://github.com/Immortallife/74-/blob/master/uploads/slide_5.jpg?raw=true">
+</image>
+</swiper-item>
+
+</swiper>
+<!-- 在小程序中，text相当于网页中的span标签，是行内元素
+          view相当于网页中的div标签，是块级元素
+          navigator相当于网页中的a标签 -->
+ <view class ="title" >
+ 乐园活动
+ </view>  
+ <!-- 活动列表 -->
+ <view class="items">
+ <navigator url="">
+ <image src="https://github.com/Immortallife/74-/blob/master/uploads/item_1.png?raw=true"></image>
+
+ </navigator>
+ <!-- 相关信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">
+    疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+    </view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text >200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+</view>
+<view class="items">
+ <navigator>
+ <image src="https://github.com/Immortallife/74-/blob/master/uploads/item_2.png?raw=true"></image>
+ </navigator>
+ <!-- 相关信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">
+    疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+    </view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text class="icon-quill">200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+</view>
+<view class="items">
+ <navigator>
+ <image src="https://github.com/Immortallife/74-/blob/master/uploads/item_3.png?raw=true"></image>
+ </navigator>
+ <!-- 相关信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">
+    疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+    </view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+</view>
+<view class="items">
+ <navigator>
+ <image src="https://github.com/Immortallife/74-/blob/master/uploads/item_4.png?raw=true"></image>
+ </navigator> 
+ <!-- 相关信息 -->
+  <view class="info">
+    <!-- 活动名称 -->
+    <view class="name">
+    疯狂的红包 不一样的撕名牌 大型家庭亲子户外活动
+    </view>
+    <!-- 其它 -->
+    <view class="extra">
+      <text>200人已报名</text>
+      <text>本周六开始</text>
+    </view>
+    <!-- 状态 -->
+    <view class="status">免费</view>
+  </view>
+</view>
+ 
+        
+
